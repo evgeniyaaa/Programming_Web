@@ -12,6 +12,7 @@ h2{
 h3 {
 	color:green;
  	font-family:'Comic Sans MS';
+ 	font-size: 24px;
  	font-variant: small-caps;
  	font-weight: 600;
 }
@@ -23,6 +24,8 @@ h4 {
 
 body{
 	font-family:'Comic Sans MS';
+	line-height: 1.5em;
+	text-align: center;
 	width:950px;
 	margin:0px auto;
 	background-color: #f4d2d0;
@@ -30,6 +33,8 @@ body{
 
 p{
 	color: #172703;
+	font-size:18px;
+	line-height:2.0em;
 }
 
 #paragraph{
@@ -37,10 +42,13 @@ p{
 	font-style: italic;
 }
 
-#content{
+#content, #start{
 	font-family: 'Comic Sans MS';
 	font-weight: lighter;
 	font-size:normal;
+	font-size:18px;
+	line-height:1.3em;
+	text-align: left;
 }
 
 p a:link{
