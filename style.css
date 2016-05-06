@@ -1,0 +1,57 @@
+h1 {
+	color:purple;
+	font:small-caps 50px 'Comic Sans MS';
+}
+
+h2{
+	color:purple;
+	font-family:'Comic Sans MS';
+	font-variant: small-caps;
+}
+
+h3 {
+	color:green;
+ 	font-family:'Comic Sans MS';
+ 	font-variant: small-caps;
+ 	font-weight: 600;
+}
+
+h4 {
+	font-family:'Comic Sans MS';
+	font-size: 17px
+}
+
+body{
+	font-family:'Comic Sans MS';
+	width:950px;
+	margin:0px auto;
+	background-color: #f4d2d0;
+}
+
+p{
+	color: #172703;
+}
+
+#paragraph{
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#content{
+	font-family: 'Comic Sans MS';
+	font-weight: lighter;
+	font-size:normal;
+}
+
+p a:link{
+	 text-decoration:none;
+	}
+
+p a:hover{
+	 color: #ff6f69;
+}
+li a:link{
+	 text-decoration:none;
+	}
+li a:hover{
+	 color: #ff6f69;

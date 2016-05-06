@@ -1,0 +1,18 @@
+body{
+	background-image: url("London View.jpg");
+	background-repeat: no-repeat;
+	color:#e9e5d6;
+	font:small-caps lighter 55px 'Comic Sans MS';
+	margin:0px auto;
+    width:550px;
+    line-height:2.5em;
+    text-align: center;
+}
+
+p a:link{
+	 text-decoration:none;
+	}
+
+p a:hover{
+	 color: #ff6f69;
+}
