@@ -77,11 +77,6 @@ body{
 	font-style: italic;
 	padding:5px 15px;
 }
-#contact{
-	text-align: left;
-	letter-spacing: 0em;
-}
-
 
 p a{
 	 text-decoration:none;
@@ -166,11 +161,6 @@ p {
 	text-align: center;
 }
 
-img + p + p {
-	font-style: italic;
-	text-align: right;
-	font-size: 14px;
-}
 
 div > ul > li {
 	text-align: left;
@@ -194,5 +184,23 @@ div > h2 {
 	letter-spacing: 3px;
 	font-size:23px;
 	line-height:1.3em;
+	text-align: left;
+}
+#div-1 {
+	width: 250px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: right;
+}
+#div-2 {
+	width: 380px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: right;
+}
+#div-3 {
+	width: 360px;
+	font-size: 14px;
+	font-style: italic;
 	text-align: left;
 }
