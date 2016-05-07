@@ -9,10 +9,20 @@ body{
     text-align: center;
 }
 
-p a:link{
-	 text-decoration:none;
+p a{
+	
+    color:purple;
+    text-decoration:none;
+    padding:10px;
 	}
 
 p a:hover{
-	 color: #ff6f69;
+	 color:#ff6f69;
+}
+
+p a:visited{
+	color:none;
+}
+p a:active{
+	color: #ffa8a5;
 }

@@ -1,65 +1,198 @@
 h1 {
-	color:purple;
+	color: purple;
 	font:small-caps 50px 'Comic Sans MS';
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 10px 15px;
+	text-align: center;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+	
 }
 
 h2{
 	color:purple;
 	font-family:'Comic Sans MS';
 	font-variant: small-caps;
+	letter-spacing: 3px;
+	padding: 10px 15px;
 }
 
 h3 {
 	color:green;
  	font-family:'Comic Sans MS';
- 	font-size: 24px;
+ 	font-size: 25px;
  	font-variant: small-caps;
- 	font-weight: 600;
+ 	line-height: 2.5;
+ 	text-align: left;
+ 	letter-spacing: 3px;
+ 	padding: 10px 15px;
 }
 
 h4 {
 	font-family:'Comic Sans MS';
 	font-size: 17px
+	padding: 10px 15px;
+}
+h5 { 
+	font-family:'Comic Sans MS';
+	font-style: italic;
+	padding: 10px 15px;
 }
 
 body{
 	font-family:'Comic Sans MS';
-	line-height: 1.5em;
-	text-align: center;
-	width:950px;
-	margin:0px auto;
-	background-color: #f4d2d0;
-}
-
-p{
 	color: #172703;
 	font-size:18px;
-	line-height:2.0em;
+	line-height: 1.5;
+	background-color: #f4d2d0;
+	padding:5px 15px;
+}
+
+
+.explanation {
+    font-family: 'Comic Sans MS';
+    font-size:18px;
+    color:#172703;
+    text-align: justify;
+    padding:5px 15px;
+}
+
+.right {
+	float:right;
+	margin-left:30px;
+}
+
+.left {
+	float:left;
+	margin-right:30px;
+}
+
+.left, .right {
+	border:none;
+	padding:4px;
 }
 
 #paragraph{
 	font-weight: lighter;
 	font-style: italic;
+	padding:5px 15px;
 }
-
-#content, #start{
-	font-family: 'Comic Sans MS';
-	font-weight: lighter;
-	font-size:normal;
-	font-size:18px;
-	line-height:1.3em;
+#contact{
 	text-align: left;
+	letter-spacing: 0em;
 }
 
-p a:link{
+
+p a{
 	 text-decoration:none;
 	}
 
 p a:hover{
 	 color: #ff6f69;
 }
-li a:link{
+
+p a:visited{
+	color:none;
+}
+
+p a:active{
+	color: #ffa8a5;
+}
+
+
+li a{
 	 text-decoration:none;
-	}
+	 color:#172703;
+	 border-bottom:1px dashed purple;
+}
 li a:hover{
 	 color: #ff6f69;
+}
+li a:visited{
+	color:none;
+}
+li a:active{
+	color: #ffa8a5;
+}
+h1 a:link{
+	 text-decoration:none;
+}
+h1 a:hover{
+	 color: #ff6f69;
+}
+h1 a:visited{
+	color:none;
+}
+h1 a:active{
+	color: #ffa8a5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding:5px 15px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+}
+#main-content {
+    float: left;
+    width: 770px;
+}
+#sidebar {
+    float: right;
+    width: 180px;
+}
+#sidebar ul {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+#footer {
+    clear: both;
+    height: 300px;
+}
+#author {
+	text-align:right;
+}
+#header {
+	height: 150px;
+}
+#tea {
+	text-align: center;
+}
+
+img + p + p {
+	font-style: italic;
+	text-align: right;
+	font-size: 14px;
+}
+
+div > ul > li {
+	text-align: left;
+	letter-spacing: 0.2em;
+	font-size: 17px;
+	line-height: 33px;
+	color:green;
+
+}
+div >ul > li > ul > li {
+	text-align: left;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+	line-height: 33px;
+	color:green;
+}
+div > h2 {
+	color:green;
+	font-family:'Comic Sans MS';
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	font-size:23px;
+	line-height:1.3em;
+	text-align: left;
+}
