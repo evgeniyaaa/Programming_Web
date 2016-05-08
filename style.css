@@ -5,7 +5,8 @@ h1 {
 	letter-spacing: 5px;
 	padding: 10px 15px;
 	text-align: center;
-	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+	text-shadow: 0px 0px 4px #999;
+	transform: rotate(5deg)
 	
 }
 
@@ -45,6 +46,8 @@ body{
 	font-size:18px;
 	line-height: 1.5;
 	background-color: #f4d2d0;
+background:-webkit-gradient(linear, left top, right top, from(#fcf6f5
+), to(#c3a8a6));
 	padding:5px 15px;
 }
 
@@ -55,16 +58,19 @@ body{
     color:#172703;
     text-align: justify;
     padding:5px 15px;
+    height: 1.5;
 }
 
 .right {
 	float:right;
 	margin-left:30px;
+	margin-top: 5px;
 }
 
 .left {
 	float:left;
 	margin-right:30px;
+	margin-top: 5px;
 }
 
 .left, .right {
@@ -76,6 +82,14 @@ body{
 	font-weight: lighter;
 	font-style: italic;
 	padding:5px 15px;
+}
+
+#park{
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 14px;
+	padding:5px 15px;
+	text-align: center;
 }
 
 p a{
@@ -121,6 +135,18 @@ h1 a:visited{
 h1 a:active{
 	color: #ffa8a5;
 }
+h3 a:link{
+	 text-decoration:none;
+}
+h3 a:hover{
+	 color: #ff6f69;
+}
+h3 a:visited{
+	color:none;
+}
+h3 a:active{
+	color: #ffa8a5;
+}
 
 * {
     margin: 0;
@@ -141,7 +167,8 @@ p {
 }
 #sidebar {
     float: right;
-    width: 180px;
+    width: 160px;
+    text-align: center;
 }
 #sidebar ul {
     list-style-position: inside;
@@ -150,6 +177,7 @@ p {
 #footer {
     clear: both;
     height: 300px;
+    text-align: left;
 }
 #author {
 	text-align:right;
@@ -157,6 +185,7 @@ p {
 #header {
 	height: 150px;
 }
+
 #tea {
 	text-align: center;
 }
@@ -168,8 +197,8 @@ div > ul > li {
 	font-size: 17px;
 	line-height: 33px;
 	color:green;
-
 }
+
 div >ul > li > ul > li {
 	text-align: left;
 	letter-spacing: 0.1em;
@@ -177,6 +206,7 @@ div >ul > li > ul > li {
 	line-height: 33px;
 	color:green;
 }
+
 div > h2 {
 	color:green;
 	font-family:'Comic Sans MS';
@@ -204,3 +234,30 @@ div > h2 {
 	font-style: italic;
 	text-align: left;
 }
+img {
+	border-radius:45px 45px 10px 10px;
+	box-shadow: 10px 0px 20px #3b3841;
+}
+
+.button {
+	font-family:'Comic Sans MS';
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: #b908c2;
+	padding: 5px 16px;
+	
+	background: -webkit-gradient(linear, left top, left bottom,from(#fcf6f5), to(#c3a8a6));
+	border-radius: 13px;
+	border: 2px solid green;
+	text-shadow: 0px 0px 4px #999;
+	text-decoration: none;
+}
+
+.button:hover {
+     color:#e5635e;
+     background: #ffb7b4;
+   }
+.button:active {
+   color: #ffa8a5;
+   background: #ffe2e1;
+   }
