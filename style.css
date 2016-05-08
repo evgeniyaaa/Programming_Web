@@ -147,7 +147,9 @@ h3 a:visited{
 h3 a:active{
 	color: #ffa8a5;
 }
-
+h3 a:visited{
+	color:none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -238,12 +240,13 @@ img {
 	border-radius:45px 45px 10px 10px;
 	box-shadow: 10px 0px 20px #3b3841;
 }
-
-.button {
+.button a{
+	color: purple;
+}
+.button{
 	font-family:'Comic Sans MS';
 	font-size: 17px;
 	letter-spacing: 2px;
-	color: #b908c2;
 	padding: 5px 16px;
 	
 	background: -webkit-gradient(linear, left top, left bottom,from(#fcf6f5), to(#c3a8a6));
@@ -261,3 +264,6 @@ img {
    color: #ffa8a5;
    background: #ffe2e1;
    }
+.button:visited {
+	color:none;
+}
