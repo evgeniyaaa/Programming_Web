@@ -2,16 +2,16 @@ body{
 	background-image: url("London View.jpg");
 	background-repeat: no-repeat;
 	color:#e9e5d6;
-	font:small-caps lighter 55px 'Comic Sans MS';
+	font:small-caps lighter 65px 'Comic Sans MS';
 	margin:0px auto;
-    width:550px;
-    line-height:2.5em;
+    width:950px;
+    line-height:1.5em;
     text-align: center;
+    letter-spacing: 4px;
 }
 
 p a{
-	
-    color:purple;
+    color:pink;
     text-decoration:none;
     padding:10px;
 	}
@@ -21,7 +21,7 @@ p a:hover{
 }
 
 p a:visited{
-	color:none;
+	color:pink;
 }
 p a:active{
 	color: #ffa8a5;

@@ -1,15 +1,15 @@
 
-
+/*********  HEADINGS *****************/
+/*************************************/
 h1 {
-	color: purple;
-	font:small-caps 45px 'Comic Sans MS';
+	color: rgba(131,53,120, 0.75);
+	font:small-caps 55px 'Comic Sans MS';
 	font-weight: bold;
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 	padding: 10px 15px;
 	text-align: center;
 	text-shadow: 0px 0px 4px #999;
-	transform: rotate(5deg)
-	
+	transform: rotate(5deg);
 }
 
 h2{color: purple;
@@ -38,7 +38,7 @@ h4 {color:#194218;
  	font-family:'Comic Sans MS';
  	font-size: 22px;
  	font-variant: small-caps;
- 	line-height: 2.5;
+ 	line-height: 1.1em;
  	text-align: left;
  	letter-spacing: 3px;
  	padding: 10px 15px;
@@ -79,11 +79,17 @@ body{
 	margin-top: 5px;
 }
 
+
 .left {
 	float:left;
 	margin-right:30px;
 	margin-top: 5px;
 }
+.left p {
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
 
 .center{
 	float:center;
@@ -121,7 +127,7 @@ p a:active{
 	color: #ffa8a5;
 }
 p a:visited{
-	color:none;
+	color:purple;
 }
 
 
@@ -134,7 +140,7 @@ li a:hover{
 	 color: #ff6f69;
 }
 li a:visited{
-	color:none;
+	color:#172703;
 }
 li a:active{
 	color: #ffa8a5;
@@ -146,7 +152,7 @@ h1 a:hover{
 	 color: #ff6f69;
 }
 h1 a:visited{
-	color:none;
+	color:rgba(131,53,120, 0.75);
 }
 h1 a:active{
 	color: #ffa8a5;
@@ -158,7 +164,7 @@ h2 a:hover{
 	 color: #ff6f69;
 }
 h2 a:visited{
-	color:none;
+	color:purple;
 }
 h2 a:active{
 	color: #ffa8a5;
@@ -176,7 +182,7 @@ h3 a:active{
 	color: #ffa8a5;
 }
 h3 a:visited{
-	color:none;
+	color:green;
 }
 * {
     margin: 0;
@@ -193,9 +199,10 @@ p {
     width: 1100px;
 }
 #main-content {
-    float: left;
-    width: 770px;
-}
+	float: left;
+    width: 800px;
+    }
+
 #sidebar {
     float: right;
     width: 160px;
@@ -214,7 +221,12 @@ p {
 	text-align:right;
 }
 #header {
-	height: 250px;
+	height: 100px;
+}
+
+#header_logo{
+	height: 50px;
+	
 }
 
 #tea {
@@ -257,6 +269,7 @@ div >ul > li > ul > li {
 img {
 	border-radius:45px 45px 10px 10px;
 	box-shadow: 10px 0px 20px #3b3841;
+	vertical-align: bottom;
 }
 .button a{
 	color: purple;
@@ -284,10 +297,8 @@ img {
    }
 
 .button:visited {
-	color:none;
+	color:purple;
 }
-
-
 
 .button_logo a{
 	color: #194218;
@@ -304,6 +315,7 @@ img {
 	padding: 10px 15px;
 	transform: rotate(10deg);
 	background:none;
+	float: right;
 }
 
 .button_logo:active {
@@ -311,5 +323,120 @@ img {
    background: #ffe2e1;
    }
 .button_logo:visited {
+	color:#194218;
+}
+.button_logo a:hover {
+     color:#e5635e;
+     
+   }
+
+.button_menu a{
+	color: #2d223c;
+	text-decoration: none;
+	font-weight: lighter;
+	letter-spacing: 0px;
+	
+}
+.button_menu{
+
+	font: 16px 'Comic Sans MS';
+	padding: 10px 15px;
+	background:none;
+	border: none;	
+}
+
+.button_menu:active {
+   color: #ffa8a5;
+   background: #ffe2e1;
+   }
+
+.button_menu:visited {
 	color:none;
+}
+
+.button_menu:hover {
+     color:#e5635e;
+     background: -webkit-gradient(linear, left top, left bottom,from(#fcf6f5), to(#f7ddf4));
+
+   }
+
+
+#main-menu, .sub-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+
+  }
+
+#main-menu li {
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    position: relative;
+
+}
+#main-menu li a {
+    background: -webkit-gradient(linear, left top, left bottom,from(#fcf6f5), to(#f7ddf4)); ;
+    border: 1px solid #c15e20;
+    color: purple;
+    font-size: 15px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 16px;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+
+
+}
+#main-menu li a:hover {
+	display: block;
+    background:none;
+    border:none;
+    color: green;
+   
+}
+
+#main-menu li ul li a:hover {
+	display: block;
+    background:#fcf6f5;
+    border:none;
+    color: pink;
+
+}
+
+#main-menu li ul{
+	display: block;
+    background:none;
+    border:none;
+    
+    
+}
+#main-menu .sub-menu {
+    display: none;
+    padding-top: 2px;
+    position: absolute;
+    width: 170px;
+}
+#main-menu .sub-menu li {
+    float: none; 
+    padding-bottom: 1px;
+}
+#main-menu li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; }
+
+#main-menu li:hover li {
+	float: none; }
+
+#header_menu {
+	height: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
 }
