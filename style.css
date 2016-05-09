@@ -36,14 +36,15 @@ h3{
 
 h4 {color:#194218;
  	font-family:'Comic Sans MS';
- 	font-size: 22px;
+ 	font-size: 20px;
  	font-variant: small-caps;
- 	line-height: 1.1em;
- 	text-align: left;
+ 	line-height: 1.0em;
+ 	text-align: center;
  	letter-spacing: 3px;
  	padding: 10px 15px;
 
 	font-family:'Comic Sans MS';
+	font-weight: bold;
 	font-size: 17px
 	padding: 10px 15px;
 }
@@ -127,7 +128,7 @@ p a:active{
 	color: #ffa8a5;
 }
 p a:visited{
-	color:purple;
+	color:none;
 }
 
 
@@ -140,7 +141,7 @@ li a:hover{
 	 color: #ff6f69;
 }
 li a:visited{
-	color:#172703;
+	color:none;
 }
 li a:active{
 	color: #ffa8a5;
@@ -152,7 +153,7 @@ h1 a:hover{
 	 color: #ff6f69;
 }
 h1 a:visited{
-	color:rgba(131,53,120, 0.75);
+	color:none;
 }
 h1 a:active{
 	color: #ffa8a5;
@@ -164,7 +165,7 @@ h2 a:hover{
 	 color: #ff6f69;
 }
 h2 a:visited{
-	color:purple;
+	color:none;
 }
 h2 a:active{
 	color: #ffa8a5;
@@ -175,14 +176,12 @@ h3 a:link{
 h3 a:hover{
 	 color: #ff6f69;
 }
-h3 a:visited{
-	color:none;
-}
+
 h3 a:active{
 	color: #ffa8a5;
 }
 h3 a:visited{
-	color:green;
+	color:none;
 }
 * {
     margin: 0;
@@ -249,9 +248,6 @@ div >ul > li > ul > li {
 	color:green;
 }
 
-
-
-
 .caption {
 	
 	font-size: 14px;
@@ -276,14 +272,14 @@ img {
 }
 .button{
 	font-family:'Comic Sans MS';
-	font-size: 17px;
-	letter-spacing: 2px;
+	font-size: 16px;
+	letter-spacing: 1px;
 	padding: 5px 16px;
 	
 	background: -webkit-gradient(linear, left top, left bottom,from(#fcf6f5), to(#c3a8a6));
 	border-radius: 13px;
-	border: 2px solid green;
-	text-shadow: 0px 0px 4px #999;
+	font-weight: lighter;
+	border: 1px solid green;
 	text-decoration: none;
 }
 
@@ -297,7 +293,7 @@ img {
    }
 
 .button:visited {
-	color:purple;
+	color:none;
 }
 
 .button_logo a{
@@ -323,7 +319,7 @@ img {
    background: #ffe2e1;
    }
 .button_logo:visited {
-	color:#194218;
+	color:none;
 }
 .button_logo a:hover {
      color:#e5635e;

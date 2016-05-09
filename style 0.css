@@ -21,7 +21,7 @@ p a:hover{
 }
 
 p a:visited{
-	color:pink;
+	color:none;
 }
 p a:active{
 	color: #ffa8a5;
