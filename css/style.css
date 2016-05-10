@@ -1,5 +1,8 @@
 /*********  HEADINGS *****************/
 @font-face {
+  font-family: "Comic Sans MS";
+  src: url("../comic.ttf"); }
+@font-face {
   font-family: "Planet";
   src: url("../planetbe.ttf"); }
 h1 {
