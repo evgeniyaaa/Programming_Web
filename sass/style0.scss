@@ -1,0 +1,32 @@
+
+$font: 'Comic Sans MS';
+
+body {
+  background-image: url("../London View.jpg");
+  background-repeat: no-repeat;
+  color: #e9e5d6;
+  font: small-caps lighter 65px $font;
+  margin: 0px auto;
+  width: 950px;
+  line-height: 1.5em;
+  text-align: center;
+  letter-spacing: 4px; }
+
+p {
+  a {
+  color: pink;
+  text-decoration: none;
+  padding: 10px; }
+
+  a:hover {
+  color: #ff6f69; }
+
+  a:visited {
+  color: none; }
+
+   a:active {
+  color: #ffa8a5; }
+}
+/*# sourceMappingURL=style0.css.map */
+
+/*# sourceMappingURL=style0.css.map */
