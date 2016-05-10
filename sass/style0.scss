@@ -1,6 +1,11 @@
 
 $font: 'Comic Sans MS';
 
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("../comic.ttf");
+}
+
 body {
   background-image: url("../London View.jpg");
   background-repeat: no-repeat;
