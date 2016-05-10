@@ -413,10 +413,17 @@ img {
 
 /* Makes the dropdown menu text be the same width, otherwise it depends on the length of the word. */
 #header_menu {
-  height: 50px;
   padding-top: 30px;
   padding-bottom: 30px; }
 
+@media screen and (max-width: 768px) {
+  #main-menu li {
+    float: none; }
+
+  #main-menu li a {
+    display: inline-block; }
+
+  /* Makes the block as long as the text.*/ }
 /*************************************/
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
