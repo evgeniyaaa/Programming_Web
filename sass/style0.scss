@@ -7,7 +7,7 @@ body {
   color: #e9e5d6;
   font: small-caps lighter 65px $font;
   margin: 0px auto;
-  width: 950px;
+  width: 100%;
   line-height: 1.5em;
   text-align: center;
   letter-spacing: 4px; }
@@ -27,6 +27,18 @@ p {
    a:active {
   color: #ffa8a5; }
 }
+@media screen and (max-width: 768px) 
+{
+    #main-content {width:100%;}
+    body {font-size: 53px;
+         width: 100%;}
+}
+
+/* For responsive page.*/
+
+
+
+
 /*# sourceMappingURL=style0.css.map */
 
 /*# sourceMappingURL=style0.css.map */
